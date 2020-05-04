@@ -39,5 +39,23 @@ namespace UpCycling.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        public IActionResult Activities()
+        {
+            return View();
+        }
+
+        public IActionResult ActivityChildren()
+        {
+            return View();
+        }
+        public IActionResult ActivityAdult()
+        {
+            return View();
+        }
+
+        public IActionResult Introduction()
+        {
+            return View();
+        }
     }
 }
