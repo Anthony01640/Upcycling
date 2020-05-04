@@ -43,5 +43,19 @@ namespace UpCycling.Controllers
         {
             return View();
         }
+
+        public IActionResult ActivityChildren()
+        {
+            return View();
+        }
+        public IActionResult ActivityAdult()
+        {
+            return View();
+        }
+
+        public IActionResult Introduction()
+        {
+            return View();
+        }
     }
 }
