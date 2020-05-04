@@ -1,0 +1,31 @@
+﻿@model UpCycling.Models.AdminController.CreateEventViewModel
+
+@using UpCycling.Controllers
+<h2>Créer un Administrateur</h2>
+
+@using (Html.BeginForm(nameof(AdminController.CreateEvent), "Admin", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <label> Nom :</label>
+    @Html.TextBoxFor(m => Model.Nom)
+    <label> Description :</label>
+
+    @Html.TextAreaFor(m => Model.Desc)
+    <label> Prix :</label>
+
+    @Html.TextBoxFor(m => Model.Prix)
+    <label> Date :</label>
+
+    <input asp-for=Date />
+
+    <label> Lieu :</label>
+
+    @Html.TextBoxFor(m => Model.Lieu)
+    <label> Place :</label>
+
+    @Html.TextBoxFor(m => Model.Place)
+
+    <div class="">
+        <input type="submit" class="btn btn-default rounded bg-dark text-white mt-2" value="Rennomer le dossier" />
+    </div>
+}

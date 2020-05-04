@@ -1,0 +1,23 @@
+﻿@model UpCycling.Models.AgendaController.ReserveEventViewModel
+@{
+    ViewData["Title"] = "ReservationToEvent";
+}
+
+@using UpCycling.Controllers
+
+@using (Html.BeginForm(nameof(AgendaController.ReservationToEvent), "Agenda", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    <h2>Reserver pour l'évenement @Model.NomEvent</h2>
+
+    @Html.HiddenFor(w => w.IdEvent)
+    @Html.HiddenFor(w => w.IdUser)
+    <label> Places restantes : @Model.PlacLibre </label>
+    @Html.Label("Nombre de place que vous voulez réserver")
+    @Html.TextBoxFor(w => w.PlacePrise)
+
+
+    <div class="">
+        <input type="submit" class="btn btn-default rounded bg-dark text-white mt-2" value="Réservez" />
+    </div>
+}
+
