@@ -111,7 +111,7 @@ Write(Html.TextBoxFor(m => Model.Prix));
             WriteLiteral("    ");
             EndContext();
             BeginContext(547, 22, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "93d30e4e8c164f8e857e5d5dd3c5ed9c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "3050c80fa2ad4fb2919ea0692e607fbd", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
