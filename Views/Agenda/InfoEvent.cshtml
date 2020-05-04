@@ -1,0 +1,14 @@
+﻿@model UpCycling.Models.AgendaController.ShowEventVueModel
+@using UpCycling.Controllers
+
+<h2>Information pour l'évenement @Model.Nom</h2>
+
+<label>Description :</label>
+<label>@Model.Description</label>
+<label>Date :</label>
+
+<label>@Model.Date</label>
+<label>Prix :</label>
+
+<label>@Model.Prix</label>
+@Html.ActionLink("Réservez", nameof(AgendaController.ReservationToEvent), "Agenda", new { idEvent = Model.Id })

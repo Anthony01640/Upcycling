@@ -1,0 +1,11 @@
+﻿
+@using UpCycling.Controllers
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Administration</h2>
+
+@Html.ActionLink("Ajouter un utilisateur", nameof(AdminController.CreateUser),"Admin" )
+@Html.ActionLink("Ajouter un utilisateur", nameof(AdminController.CreateEvent),"Admin" )
+

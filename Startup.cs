@@ -12,6 +12,8 @@ using Microsoft.EntityFrameworkCore;
 using UpCycling.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using UpCycling.Service.Implementation;
+using UpCycling.Service.Interface;
 
 namespace UpCycling
 {
@@ -37,10 +39,20 @@ namespace UpCycling
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>()
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+
+
+            services
+                .AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddSignInManager()
+                .AddDefaultUI()
+                .AddDefaultTokenProviders();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddTransient<IEventServices, EventService>();
+            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<ILiaison, LiaisonService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

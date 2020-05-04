@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using UpCycling.Data;
 
 namespace UpCycling.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200504094747_hasdata")]
+    partial class hasdata
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,8 +45,7 @@ namespace UpCycling.Data.Migrations
                     b.ToTable("AspNetRoles");
 
                     b.HasData(
-                        new { Id = "1", ConcurrencyStamp = "b1ad5b97-999b-48c1-bb2c-c971792aaa6b", Name = "Utilisateur", NormalizedName = "UTILISATEUR" },
-                        new { Id = "2", ConcurrencyStamp = "b1ad5b97-999b-48c1-bb2c-c971792aaa7f", Name = "Admin", NormalizedName = "ADMIN" }
+                        new { Id = "1", ConcurrencyStamp = "b1ad5b97-999b-48c1-bb2c-c971792aaa6b", Name = "Utilisateur", NormalizedName = "UTILISATEUR" }
                     );
                 });
 
@@ -141,9 +142,11 @@ namespace UpCycling.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.Property<string>("LoginProvider");
+                    b.Property<string>("LoginProvider")
+                        .HasMaxLength(128);
 
-                    b.Property<string>("ProviderKey");
+                    b.Property<string>("ProviderKey")
+                        .HasMaxLength(128);
 
                     b.Property<string>("ProviderDisplayName");
 
@@ -174,9 +177,11 @@ namespace UpCycling.Data.Migrations
                 {
                     b.Property<string>("UserId");
 
-                    b.Property<string>("LoginProvider");
+                    b.Property<string>("LoginProvider")
+                        .HasMaxLength(128);
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .HasMaxLength(128);
 
                     b.Property<string>("Value");
 
@@ -195,11 +200,7 @@ namespace UpCycling.Data.Migrations
 
                     b.Property<string>("Description");
 
-                    b.Property<string>("Lieu");
-
                     b.Property<string>("Nom");
-
-                    b.Property<int>("Place");
 
                     b.Property<int>("Prix");
 
