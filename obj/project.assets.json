@@ -12542,11 +12542,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adubuis\\source\\repos\\UpCycling\\UpCycling.csproj",
+      "projectUniqueName": "C:\\Users\\adubuis\\source\\repos\\Upcycling\\UpCycling.csproj",
       "projectName": "UpCycling",
-      "projectPath": "C:\\Users\\adubuis\\source\\repos\\UpCycling\\UpCycling.csproj",
+      "projectPath": "C:\\Users\\adubuis\\source\\repos\\Upcycling\\UpCycling.csproj",
       "packagesPath": "C:\\Users\\adubuis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adubuis\\source\\repos\\UpCycling\\obj\\",
+      "outputPath": "C:\\Users\\adubuis\\source\\repos\\Upcycling\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12606,13 +12606,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problème de lecture du fichier cache C:\\Users\\adubuis\\source\\repos\\UpCycling\\obj\\UpCycling.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
