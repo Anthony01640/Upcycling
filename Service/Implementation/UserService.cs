@@ -40,5 +40,19 @@ namespace UpCycling.Service.Implementation
         {
             return Context.Utilisateur.FirstOrDefault(w => w.Mail == mail);
         }
+
+        public IEnumerable<User> GetAllUSer()
+        {
+            return Context.Utilisateur;
+        }
+
+        public void DeleteUser(int id)
+        {
+            var user = GetUser(id);
+            var identityUser = Context.Users.FirstOrDefault(w => w.Email == user.Mail);
+            Context.Users.Remove(identityUser);
+            Context.Utilisateur.Remove(user);
+            Context.SaveChanges();
+        }
     }
 }

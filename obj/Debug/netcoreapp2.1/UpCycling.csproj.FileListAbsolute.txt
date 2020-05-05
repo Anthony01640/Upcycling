@@ -48,3 +48,4 @@ C:\Users\adubuis\source\repos\UpCycling\obj\Debug\netcoreapp2.1\Razor\Views\Agen
 C:\Users\adubuis\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\ActivityAdult.g.cshtml.cs
 C:\Users\adubuis\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\ActivityChildren.g.cshtml.cs
 C:\Users\adubuis\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\Introduction.g.cshtml.cs
+C:\Users\adubuis\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Admin\IndexUser.g.cshtml.cs

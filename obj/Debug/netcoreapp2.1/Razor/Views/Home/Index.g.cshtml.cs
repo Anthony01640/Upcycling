@@ -76,7 +76,7 @@ ViewData["Title"] = "Home Page";
  <p>Nous travaillons avec les centres de loisirs, association, écoles, bibliothèques... Avec des méthodes artisanales d'ici et d'ailleurs, des activités ludiques, nous informons et responsabilisons à la démarche du recyclage. Nousnous adressons aux enfants, femmes et hommes de tout âges et de toutes origines socioculturelles.");
             EndContext();
             BeginContext(426, 97, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "88e8c02951624584982d700df26b0747", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3b5d20abc3264221a219dba705748dd2", async() => {
                 BeginContext(503, 16, true);
                 WriteLiteral("En savoir plus..");
                 EndContext();
@@ -113,7 +113,7 @@ ViewData["Title"] = "Home Page";
             ");
             EndContext();
             BeginContext(1042, 97, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9ce42616f25b449db9503926dec1d6bd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "08c62a3d648c4d31a2bbb9a3db0dd35b", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -133,7 +133,7 @@ ViewData["Title"] = "Home Page";
             WriteLiteral("\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n            ");
             EndContext();
             BeginContext(1206, 93, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "61172d3374704bdf92242696208225a5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e46f80e36c5940849c09beb658c43759", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -153,7 +153,7 @@ ViewData["Title"] = "Home Page";
             WriteLiteral("\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n            ");
             EndContext();
             BeginContext(1366, 105, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b2440c80bac04582860f5e52c516adaa", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ef478475383c416a87428ddd326f7e04", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -173,7 +173,7 @@ ViewData["Title"] = "Home Page";
             WriteLiteral("\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n            ");
             EndContext();
             BeginContext(1538, 96, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c4c0b63e2d594ed5af9845bbe4772fe4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "1e32afcd0ba244caa1b1051c09d6c17a", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -193,7 +193,7 @@ ViewData["Title"] = "Home Page";
             WriteLiteral("\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n            ");
             EndContext();
             BeginContext(1701, 96, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "12539b3e44cf4c01804f19fa15e2c016", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a0e1768cdc9d445897764d5cc02e3600", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -213,7 +213,7 @@ ViewData["Title"] = "Home Page";
             WriteLiteral("\r\n        </div>\r\n        <div class=\"carousel-item\">\r\n            ");
             EndContext();
             BeginContext(1864, 109, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "94a511bba0e34b478abcf5e9ccdf612f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "403c5edf4d99489eb4c74365ea578b69", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
