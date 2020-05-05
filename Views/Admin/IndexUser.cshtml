@@ -1,0 +1,13 @@
+﻿@model UpCycling.Models.AdminController.AllUser
+
+@using UpCycling.Controllers
+<h2>Gestion des utilisateurs</h2>
+
+@foreach (var item in Model.ListeUser)
+{
+    <div>
+        <b>@item.Nom</b>
+        @Html.ActionLink("Supprimer l'utilisateur", nameof(AdminController.DeleteUser), "Admin", new { id = item.Id }, new { @class="btn btn-outline-danger" })
+    </div>
+}
+

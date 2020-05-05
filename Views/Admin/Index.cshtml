@@ -6,6 +6,9 @@
 
 <h2>Administration</h2>
 
-@Html.ActionLink("Ajouter un utilisateur", nameof(AdminController.CreateUser),"Admin" )
-@Html.ActionLink("Ajouter un utilisateur", nameof(AdminController.CreateEvent),"Admin" )
 
+@Html.ActionLink("Ajouter un utilisateur", nameof(AdminController.CreateUser), "Admin", null, new { @class = "btn btn-primary" })
+
+@Html.ActionLink("Gestion des utilisateurs", nameof(AdminController.IndexUser), "Admin", null, new { @class = "btn btn-primary" })
+
+@Html.ActionLink("Ajouter un évenements", nameof(AdminController.CreateEvent), "Admin", null, new { @class = "btn btn-primary" })

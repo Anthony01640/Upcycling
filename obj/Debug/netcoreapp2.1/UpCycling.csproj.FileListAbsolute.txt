@@ -48,60 +48,7 @@ C:\Users\adubuis\source\repos\UpCycling\obj\Debug\netcoreapp2.1\Razor\Views\Agen
 C:\Users\adubuis\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\ActivityAdult.g.cshtml.cs
 C:\Users\adubuis\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\ActivityChildren.g.cshtml.cs
 C:\Users\adubuis\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\Introduction.g.cshtml.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\bin\Debug\netcoreapp2.1\appsettings.Development.json
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\bin\Debug\netcoreapp2.1\appsettings.json
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\bin\Debug\netcoreapp2.1\UpCycling.deps.json
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\bin\Debug\netcoreapp2.1\UpCycling.runtimeconfig.json
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\bin\Debug\netcoreapp2.1\UpCycling.runtimeconfig.dev.json
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\bin\Debug\netcoreapp2.1\UpCycling.dll
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\bin\Debug\netcoreapp2.1\UpCycling.pdb
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\bin\Debug\netcoreapp2.1\UpCycling.Views.dll
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\bin\Debug\netcoreapp2.1\UpCycling.Views.pdb
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.csprojAssemblyReference.cache
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.RazorAssemblyInfo.cache
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.RazorAssemblyInfo.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.AssemblyInfoInputs.cache
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.AssemblyInfo.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.TagHelpers.input.cache
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.TagHelpers.output.cache
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.RazorCoreGenerate.cache
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Admin\CreateEvent.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Admin\CreateUser.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Agenda\Index.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Agenda\InfoEvent.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Agenda\ReservationToEvent.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\Activities.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\ActivityAdult.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\ActivityChildren.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\Introduction.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.RazorTargetAssemblyInfo.cache
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.RazorTargetAssemblyInfo.cs
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.Views.pdb
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.dll
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.pdb
-C:\Users\Utilisateur\Desktop\448h\Nouveau dossier\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.csproj.CopyComplete
-C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.dll
-C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.pdb
+C:\Users\adubuis\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Admin\IndexUser.g.cshtml.cs
 C:\Users\hugo\source\repos\Upcycling\bin\Debug\netcoreapp2.1\appsettings.Development.json
 C:\Users\hugo\source\repos\Upcycling\bin\Debug\netcoreapp2.1\appsettings.json
 C:\Users\hugo\source\repos\Upcycling\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
@@ -131,6 +78,7 @@ C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Areas\Identit
 C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Admin\CreateEvent.cshtml.g.cs
 C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Admin\CreateUser.cshtml.g.cs
 C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Admin\IndexUser.cshtml.g.cs
 C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Agenda\Index.cshtml.g.cs
 C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Agenda\InfoEvent.cshtml.g.cs
 C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\Agenda\ReservationToEvent.cshtml.g.cs
@@ -152,5 +100,9 @@ C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Views\_ViewSt
 C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.RazorTargetAssemblyInfo.cache
 C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.RazorTargetAssemblyInfo.cs
 C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.Views.pdb
+C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.dll
+C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.pdb
 C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.genruntimeconfig.cache
 C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\UpCycling.csproj.CopyComplete
+C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Users\hugo\source\repos\Upcycling\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
