@@ -7,7 +7,7 @@
 {
     <div>
         <b>@item.Nom</b>
-        @Html.ActionLink("Supprimer l'utilisateur", nameof(AdminController.DeleteUser), "Admin", new { id = item.Id }, new { style = "color : black;" ,@class="btn" })
+        @Html.ActionLink("Supprimer l'utilisateur", nameof(AdminController.DeleteUser), "Admin", new { id = item.Id }, new { @class="btn btn-outline-danger" })
     </div>
 }
 

@@ -3,22 +3,37 @@
 @using UpCycling.Controllers
 <h2>Créer un Administrateur</h2>
 
-@using (Html.BeginForm(nameof(AdminController.CreateUser), "Admin", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
-{
-    @Html.AntiForgeryToken()
+<div class="row">
+    <div class="col-md-5">
+        @using (Html.BeginForm(nameof(AdminController.CreateUser), "Admin", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
 
-    <label> Mail :</label>
+            <div>
+                <label> Mail :</label>
+                @Html.TextBoxFor(m => Model.Email, new {@class="form-control"})
+            </div>
+           
 
-    @Html.TextBoxFor(m => Model.Email)
+            
+            <div>
+                <label> Mot de passe :</label>
+                @Html.TextBoxFor(m => Model.Password, new { @class = "form-control", type="password" })
+            </div>
 
-    <label> Mot de passe :</label>
-    @Html.TextBoxFor(m => Model.Password)
-    <label> Confirmation du mot de passe:</label>
-    @Html.TextBoxFor(m => Model.ConfirmPassword)
+            <div>
+                <label> Confirmation du mot de passe:</label>
+                @Html.TextBoxFor(m => Model.ConfirmPassword, new { @class = "form-control", type="password"})
+            </div>
 
-    <div class="">
-        <input type="submit" class="btn btn-default rounded bg-dark text-white mt-2" value="Rennomer le dossier" />
+            <br />
+
+            <div style="font-size:12px" class="">
+                <input type="submit" class="btn btn-outline-success" value="Création utilisateur" />
+            </div>
+        }
+
     </div>
-}
+</div>
 
 
