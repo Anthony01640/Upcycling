@@ -1,14 +1,26 @@
 ﻿@model UpCycling.Models.AgendaController.ShowEventVueModel
 @using UpCycling.Controllers
 
-<h2>Information pour l'évenement @Model.Nom</h2>
 
-<label>Description :</label>
-<label>@Model.Description</label>
-<label>Date :</label>
-
-<label>@Model.Date</label>
-<label>Prix :</label>
-
-<label>@Model.Prix</label>
-@Html.ActionLink("Réservez", nameof(AgendaController.ReservationToEvent), "Agenda", new { idEvent = Model.Id })
+<div class="row justify-content-center">
+    <div class="card col-8">
+        <div class="card-body text-center">
+            <div class="card-title text-center">
+                <h2>Information pour l'évenement :</h2><h2 class="text-success">@Model.Nom</h2>
+            </div>
+            <div class="card-subtitle mb-2">
+                <label class="font-weight-bold">Date :</label>
+                <label>@Model.Date</label>
+            </div>
+            <div class="card-text">
+                <label class="font-weight-bold">Description :</label>
+                <label>@Model.Description</label>
+            </div>
+            <div class="card-text">
+                <label class="font-weight-bold">Prix :</label>
+                <label>@Model.Prix€</label>
+            </div>
+            <button type="button" class="btn btn-default rounded bg-dark text-white mt-2">@Html.ActionLink("Réservez", nameof(AgendaController.ReservationToEvent), "Agenda", new { idEvent = Model.Id })</button>
+        </div>
+    </div>
+</div>

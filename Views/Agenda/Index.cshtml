@@ -1,18 +1,23 @@
 ﻿@model UpCycling.Models.AgendaController.ListLiaisonViewModel
 
 @using UpCycling.Controllers
-<h2> Calendrier des évenements </h2>
+<h2 class="text-center p-5"> Calendrier des évenements </h2>
 
-<table>
-    <tr>
-        <th>Date de l'évenement</th>
-        <th>Nom de l'évenement</th>
-    </tr>
-    @foreach (var item in Model.ListeEvent)
-    {
+
+<table class="table">
+    <thead class="thead-dark">
         <tr>
-            <td>@item.Date</td>
-            <td>@Html.ActionLink(item.Nom, nameof(AgendaController.InfoEvent), "Agenda", new { idEvent = item.Id})</td>
+            <th scope="col">Date de l'évenement</th>
+            <th scope="col">Nom de l'évenement</th>
         </tr>
-    }
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ListeEvent)
+        {
+            <tr>
+                <td>@item.Date</td>
+                <td>@Html.ActionLink(item.Nom, nameof(AgendaController.InfoEvent), "Agenda", new { idEvent = item.Id })</td>
+            </tr>
+        }
+    </tbody>
 </table>

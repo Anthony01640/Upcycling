@@ -13,5 +13,9 @@ namespace UpCycling.Service.Interface
         User GetUser(int idUser);
 
         User GetUserByMail(string mail);
+
+        IEnumerable<User> GetAllUSer();
+
+        void DeleteUser(int id);
     }
 }

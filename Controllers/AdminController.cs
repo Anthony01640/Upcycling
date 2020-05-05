@@ -40,6 +40,25 @@ namespace UpCycling.Controllers
             return View();
         }
 
+        public IActionResult IndexUser()
+        {
+            var all = new AllUser
+            {
+                ListeUser = UserServices.GetAllUSer().Select(w => new GetUserViewModel
+                {
+                    Id = w.Id,
+                    Nom = w.Mail,
+                }).ToList(),
+            };
+            return View(all);
+        }
+
+        public IActionResult DeleteUser(int id)
+        {
+            UserServices.DeleteUser(id);
+            return RedirectToAction(nameof(AdminController.Index));
+        }
+
         public IActionResult CreateUser()
         {
             var newUser = new CreateUserViewModel();
